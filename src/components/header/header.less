@@ -1,0 +1,38 @@
+@import "~less/common.less";
+
+.app-header {
+  &__content {
+    background-color: @background-color;
+  }
+
+  &__logo {
+    background: url('../../images/MetroTransitLogo.svg') no-repeat center;
+    height: 30px;
+    width: 200px;
+    background-size: contain;
+    margin: 20px;
+  }
+
+  &__banner {
+    background: url('../../images/nextrip.jpg') no-repeat center;
+    background-size: cover;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    height: 13rem;
+    position: relative;
+  }
+
+  &__text {
+    position: absolute;
+    background-color: #fff;
+    color: #8a8b8a;
+    opacity: 0.9;
+    margin-bottom: 0;
+    padding: 1rem;
+    width: auto;
+    font-size: 2rem !important;
+    left: 20px;
+    bottom: 20px;
+  }
+
+}

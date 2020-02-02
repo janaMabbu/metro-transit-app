@@ -6,6 +6,7 @@ import { loadDirections, getSelectedDirection } from 'ducks/get-directions'
 import { DropDown } from 'components/metro-app/drop-down'
 import Directions from 'components/directions'
 import Stops from 'components/stops'
+import { Header } from 'components/header/header'
 import './metro-app.less'
 
 export class MetroApp extends PureComponent {
@@ -51,8 +52,23 @@ export class MetroApp extends PureComponent {
 
   render () {
     return (
-      <div className="metro-app__main-container">
-       {this.props.isGetRoutesSuccessful ? this.renderContent(): this.renderError()}
+      <div className="container-fluid metro-app-container">
+        <div>
+          <Header/>
+        </div>
+        <div className="row">
+          <div className="col-sm-8 metro-app-container__content1">
+             {this.props.isGetRoutesSuccessful ? this.renderContent(): this.renderError()}
+          </div>
+          <div className="col-sm-4 metro-app-container__content2">
+            <div>
+            About me!
+            </div>
+            <div>
+            contact m!
+            </div>
+          </div>
+        </div>
       </div>
     )
   }
@@ -62,6 +78,7 @@ export class MetroApp extends PureComponent {
     const { routeId, directionId } = this.state
     return(
       <Fragment>
+        <h2 className="metro-app-container__title"> Real-time Departures</h2>
         <DropDown default ="Select a Route" options= {metroRoutes} onChange = {this.setSelectedRoute} selected ={selectedRoute} />
         { selectedRoute && <Directions routeId={ routeId } directionId= {directionId}  setRoutePath={ this.setRoutePath} /> }
         { (selectedRoute && selectedDirection) && <Stops/> }

@@ -114,6 +114,16 @@ module.exports = {
       }, {
         test: /bootstrap\/js\//,
         loader: 'imports?jQuery=jquery'
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)/,
+        loader: 'url-loader',
+        query: {
+          hash: 'sha512',
+          digest: 'hex',
+          name: '[name]-[hash].[ext]',
+          limit: 17000
+        }
       }
     ]
   }
