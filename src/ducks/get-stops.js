@@ -9,8 +9,6 @@ export const reducer = (currentState = initialState, action) => {
       return currentState.set('serverData', Immutable.fromJS(action.response))
     case SET_GET_STOPS_SUCCESSFUL:
       return currentState.set('isGetStopsSuccessful', action.isSuccessful)
-    case SET_SELECTED_STOP:
-      return currentState.set('selectedStop', action.isSuccessful)
     default:
       return currentState
   }
@@ -18,18 +16,15 @@ export const reducer = (currentState = initialState, action) => {
 
 // ACTION CREATORS
 export const setMetroStops = response => ({ type: SET_METRO_STOPS, response })
-export const setSelectedStop = stop => ({ type: SET_GET_STOPS_SUCCESSFUL, stop })
-export const setGetStopsIsSuccessful = isSuccessful => ({ type: SET_SELECTED_STOP, isSuccessful })
+export const setGetStopsIsSuccessful = isSuccessful => ({ type: SET_GET_STOPS_SUCCESSFUL, isSuccessful })
 
 // ACTION TYPES
 export const SET_METRO_STOPS = 'get-stops/set-metro-stop'
 export const SET_GET_STOPS_SUCCESSFUL = 'get-stops/set-get-stops-is-successful'
-export const SET_SELECTED_STOP = 'get-stops/set-selected-stop'
 
 // SELECTORS
 
 export const getStops = state => state.getIn(['metroStops', 'serverData'], Immutable.list)
-export const getSelectedStop = state => state.getIn(['metroStops', 'selectedStop'], '')
 export const isGetStopsSuccessful = state => state.getIn(['metroStops', 'isGetStopsSuccessful'], false)
 
 

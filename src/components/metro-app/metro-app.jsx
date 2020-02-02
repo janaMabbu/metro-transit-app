@@ -6,7 +6,7 @@ import { loadDirections, getSelectedDirection } from 'ducks/get-directions'
 import { DropDown } from 'components/metro-app/drop-down'
 import Directions from 'components/directions'
 import Stops from 'components/stops'
-// import './metro-app.less'
+import './metro-app.less'
 
 export class MetroApp extends PureComponent {
   static propTypes = {
@@ -51,9 +51,9 @@ export class MetroApp extends PureComponent {
 
   render () {
     return (
-      <Fragment>
+      <div className="metro-app__main-container">
        {this.props.isGetRoutesSuccessful ? this.renderContent(): this.renderError()}
-      </Fragment>
+      </div>
     )
   }
 

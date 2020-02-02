@@ -95,8 +95,9 @@ module.exports = {
         test: /\.less$/,
         loaders: [
           'style-loader',
+          'css-loader',
+          'postcss-loader',
           'less-loader',
-          'css-loader'
         ]
       }, {
         test: /\.css$/,
