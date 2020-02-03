@@ -3,10 +3,10 @@ import { connect } from 'react-redux'
 import ImmutablePropTypes from 'react-immutable-proptypes'
 import { getMetroRoutes, getRoutes, setSelectedRoute, getSelectedRoute, isGetRoutesSuccessful } from 'ducks/get-routes'
 import { loadDirections, getSelectedDirection } from 'ducks/get-directions'
-import { DropDown } from 'components/metro-app/drop-down'
+import { DropDown } from 'components/dropdown/dropdown'
 import Directions from 'components/directions'
 import Stops from 'components/stops'
-import { Header } from 'components/header/header'
+
 import './metro-app.less'
 
 export class MetroApp extends PureComponent {
@@ -48,41 +48,47 @@ export class MetroApp extends PureComponent {
     this.props.router.push(path)
   }
 
+  navigateToAboutUs = () => {
+    this.setRoutePath('about-us')
+  }
+
+  navigateToConatctUS = () => {
+    this.setRoutePath('contact-us')
+  }
+
 
 
   render () {
     return (
-      <div className="container-fluid metro-app-container">
-        <div>
-          <Header/>
+        <div className="row metro-app">
+        <div className="col-sm-8">
+             <div>{ this.props.isGetRoutesSuccessful ? this.renderMainContent(): this.renderError() } </div>
         </div>
-        <div className="row">
-          <div className="col-sm-8 metro-app-container__content1">
-             {this.props.isGetRoutesSuccessful ? this.renderContent(): this.renderError()}
-          </div>
-          <div className="col-sm-4 metro-app-container__content2">
-            <div>
-            About me!
-            </div>
-            <div>
-            contact m!
-            </div>
-          </div>
+        <div className="col-sm-4">
+            <div> { this.renderContent2() } </div>
         </div>
-      </div>
+        </div>
     )
   }
 
-  renderContent = () => {
+  renderMainContent = () => {
     const { metroRoutes, selectedRoute, selectedDirection } = this.props
     const { routeId, directionId } = this.state
     return(
-      <Fragment>
+      <div className="metro-app__content1">
         <h2 className="metro-app-container__title"> Real-time Departures</h2>
-        <DropDown default ="Select a Route" options= {metroRoutes} onChange = {this.setSelectedRoute} selected ={selectedRoute} />
+        <DropDown context= "routes" default ="Select a Route" options= {metroRoutes} onChange = {this.setSelectedRoute} selected ={selectedRoute} />
         { selectedRoute && <Directions routeId={ routeId } directionId= {directionId}  setRoutePath={ this.setRoutePath} /> }
         { (selectedRoute && selectedDirection) && <Stops/> }
-      </Fragment>
+      </div>
+    )
+  }
+  renderContent2 = () => {
+    return(
+      <div className="metro-app__content2">
+        <button className="btn btn-outline-primary metro-app__button" onClick={ this.navigateToAboutUs }>About Us</button>
+        <button className="btn btn-outline-primary metro-app__button" onClick={ this.navigateToConatctUS }>contact Us</button>
+      </div>
     )
   }
   renderError = () => {

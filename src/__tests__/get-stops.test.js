@@ -77,7 +77,7 @@ test('GetStops selectors success scenarios', ()=> {
   })
   test('GetStopsGetStops selectors fallbacks', () => {
   const state = Immutable.fromJS({metroRoutes:{}})
-    expect(isGetStopsSuccessful(state)).toEqual(false)
+    expect(isGetStopsSuccessful(state)).toEqual(true)
   })
 })
 

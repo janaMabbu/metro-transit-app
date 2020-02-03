@@ -1,14 +1,23 @@
 @import "~less/common.less";
 
-.metro-app-container {
+.metro-app {
   &__content1 {
     text-align: center;
     margin: 30px;
   }
 
   &__content2 {
-    text-align: center;
-    margin: 30px;
+    background: @light-blue;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+  }
+
+  &__button {
+    width: 80%;
+    margin: 30px 0px;
   }
   &__title {
     font-weight: 700;

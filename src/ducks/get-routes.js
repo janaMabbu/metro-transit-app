@@ -30,7 +30,7 @@ export const SET_SELECTED_ROUTE = 'get-routes/set-selected-route'
 
 export const getMetroRoutes = state => state.getIn(['metroRoutes', 'serverData'], Immutable.list)
 export const getSelectedRoute = state => state.getIn(['metroRoutes', 'selectedRoute'], '')
-export const isGetRoutesSuccessful = state => state.getIn(['metroRoutes', 'isGetRoutesSuccessful'], false)
+export const isGetRoutesSuccessful = state => state.getIn(['metroRoutes', 'isGetRoutesSuccessful'], true)
 
 
 // ASYNC FUNCTIONS

@@ -25,7 +25,7 @@ export const SET_GET_STOPS_SUCCESSFUL = 'get-stops/set-get-stops-is-successful'
 // SELECTORS
 
 export const getStops = state => state.getIn(['metroStops', 'serverData'], Immutable.list)
-export const isGetStopsSuccessful = state => state.getIn(['metroStops', 'isGetStopsSuccessful'], false)
+export const isGetStopsSuccessful = state => state.getIn(['metroStops', 'isGetStopsSuccessful'], true)
 
 
 // ASYNC FUNCTIONS

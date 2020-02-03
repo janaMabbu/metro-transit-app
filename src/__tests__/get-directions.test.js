@@ -79,7 +79,7 @@ test('getDirections selectors success scenarios', ()=> {
   })
   test('getDirections selectors fallbacks', () => {
   const state = Immutable.fromJS({metroDirections:{}})
-    expect(isGetDirectionsSuccessful(state)).toEqual(false)
+    expect(isGetDirectionsSuccessful(state)).toEqual(true)
     expect(getSelectedDirection(state)).toEqual('')
   })
 })

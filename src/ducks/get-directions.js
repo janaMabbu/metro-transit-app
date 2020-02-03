@@ -30,7 +30,7 @@ export const SET_SELECTED_DIRECTION = 'get-directions/set-selected-direction'
 
 export const getDirections = state => state.getIn(['metroDirections', 'serverData'], Immutable.list)
 export const getSelectedDirection = state => state.getIn(['metroDirections', 'selectedDirection'], '')
-export const isGetDirectionsSuccessful = state => state.getIn(['metroDirections', 'isGetDirectionsSuccessful'], false)
+export const isGetDirectionsSuccessful = state => state.getIn(['metroDirections', 'isGetDirectionsSuccessful'], true)
 
 
 // ASYNC FUNCTIONS

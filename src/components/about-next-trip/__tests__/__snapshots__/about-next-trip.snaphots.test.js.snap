@@ -1,0 +1,757 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component - AboutNextTrip should render the Header snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AboutNextTrip />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="about-us__sub-header"
+        >
+          <strong>
+            About Nextrip!
+          </strong>
+        </div>,
+        <div
+          className="about-us__content"
+        >
+          <div
+            className="about-us__sub-content"
+          >
+            <h2>
+              Stay in the know with NexTrip
+            </h2>
+            <p>
+              No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+            </p>
+            <h2>
+              How it works
+            </h2>
+            <p>
+              Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+            </p>
+            <p>
+              If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+            </p>
+            <p>
+              Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+            </p>
+            <p>
+              * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+            </p>
+            <h2>
+              Stay in the know with NexTrip
+            </h2>
+            <p>
+              No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+            </p>
+            <h2>
+              How it works
+            </h2>
+            <p>
+              Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+            </p>
+            <p>
+              If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+            </p>
+            <p>
+              Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+            </p>
+            <p>
+              * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+            </p>
+          </div>
+        </div>,
+      ],
+      "className": "about-us",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <strong>
+            About Nextrip!
+          </strong>,
+          "className": "about-us__sub-header",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "About Nextrip!",
+          },
+          "ref": null,
+          "rendered": "About Nextrip!",
+          "type": "strong",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="about-us__sub-content"
+          >
+            <h2>
+              Stay in the know with NexTrip
+            </h2>
+            <p>
+              No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+            </p>
+            <h2>
+              How it works
+            </h2>
+            <p>
+              Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+            </p>
+            <p>
+              If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+            </p>
+            <p>
+              Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+            </p>
+            <p>
+              * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+            </p>
+            <h2>
+              Stay in the know with NexTrip
+            </h2>
+            <p>
+              No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+            </p>
+            <h2>
+              How it works
+            </h2>
+            <p>
+              Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+            </p>
+            <p>
+              If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+            </p>
+            <p>
+              Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+            </p>
+            <p>
+              * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+            </p>
+          </div>,
+          "className": "about-us__content",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Stay in the know with NexTrip
+              </h2>,
+              <p>
+                No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+              </p>,
+              <h2>
+                How it works
+              </h2>,
+              <p>
+                Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+              </p>,
+              <p>
+                If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+              </p>,
+              <p>
+                Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+              </p>,
+              <p>
+                * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+              </p>,
+              <h2>
+                Stay in the know with NexTrip
+              </h2>,
+              <p>
+                No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+              </p>,
+              <h2>
+                How it works
+              </h2>,
+              <p>
+                Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+              </p>,
+              <p>
+                If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+              </p>,
+              <p>
+                Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+              </p>,
+              <p>
+                * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+              </p>,
+            ],
+            "className": "about-us__sub-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Stay in the know with NexTrip",
+              },
+              "ref": null,
+              "rendered": "Stay in the know with NexTrip",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!",
+              },
+              "ref": null,
+              "rendered": "No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "How it works",
+              },
+              "ref": null,
+              "rendered": "How it works",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.",
+              },
+              "ref": null,
+              "rendered": "Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.",
+              },
+              "ref": null,
+              "rendered": "If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.",
+              },
+              "ref": null,
+              "rendered": "Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "* Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.",
+              },
+              "ref": null,
+              "rendered": "* Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Stay in the know with NexTrip",
+              },
+              "ref": null,
+              "rendered": "Stay in the know with NexTrip",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!",
+              },
+              "ref": null,
+              "rendered": "No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "How it works",
+              },
+              "ref": null,
+              "rendered": "How it works",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.",
+              },
+              "ref": null,
+              "rendered": "Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.",
+              },
+              "ref": null,
+              "rendered": "If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.",
+              },
+              "ref": null,
+              "rendered": "Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "* Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.",
+              },
+              "ref": null,
+              "rendered": "* Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="about-us__sub-header"
+          >
+            <strong>
+              About Nextrip!
+            </strong>
+          </div>,
+          <div
+            className="about-us__content"
+          >
+            <div
+              className="about-us__sub-content"
+            >
+              <h2>
+                Stay in the know with NexTrip
+              </h2>
+              <p>
+                No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+              </p>
+              <h2>
+                How it works
+              </h2>
+              <p>
+                Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+              </p>
+              <p>
+                If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+              </p>
+              <p>
+                Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+              </p>
+              <p>
+                * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+              </p>
+              <h2>
+                Stay in the know with NexTrip
+              </h2>
+              <p>
+                No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+              </p>
+              <h2>
+                How it works
+              </h2>
+              <p>
+                Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+              </p>
+              <p>
+                If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+              </p>
+              <p>
+                Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+              </p>
+              <p>
+                * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+              </p>
+            </div>
+          </div>,
+        ],
+        "className": "about-us",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <strong>
+              About Nextrip!
+            </strong>,
+            "className": "about-us__sub-header",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "About Nextrip!",
+            },
+            "ref": null,
+            "rendered": "About Nextrip!",
+            "type": "strong",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="about-us__sub-content"
+            >
+              <h2>
+                Stay in the know with NexTrip
+              </h2>
+              <p>
+                No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+              </p>
+              <h2>
+                How it works
+              </h2>
+              <p>
+                Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+              </p>
+              <p>
+                If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+              </p>
+              <p>
+                Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+              </p>
+              <p>
+                * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+              </p>
+              <h2>
+                Stay in the know with NexTrip
+              </h2>
+              <p>
+                No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+              </p>
+              <h2>
+                How it works
+              </h2>
+              <p>
+                Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+              </p>
+              <p>
+                If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+              </p>
+              <p>
+                Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+              </p>
+              <p>
+                * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+              </p>
+            </div>,
+            "className": "about-us__content",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Stay in the know with NexTrip
+                </h2>,
+                <p>
+                  No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+                </p>,
+                <h2>
+                  How it works
+                </h2>,
+                <p>
+                  Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+                </p>,
+                <p>
+                  If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+                </p>,
+                <p>
+                  Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+                </p>,
+                <p>
+                  * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+                </p>,
+                <h2>
+                  Stay in the know with NexTrip
+                </h2>,
+                <p>
+                  No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!
+                </p>,
+                <h2>
+                  How it works
+                </h2>,
+                <p>
+                  Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.
+                </p>,
+                <p>
+                  If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.
+                </p>,
+                <p>
+                  Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.
+                </p>,
+                <p>
+                  * Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.
+                </p>,
+              ],
+              "className": "about-us__sub-content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Stay in the know with NexTrip",
+                },
+                "ref": null,
+                "rendered": "Stay in the know with NexTrip",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!",
+                },
+                "ref": null,
+                "rendered": "No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "How it works",
+                },
+                "ref": null,
+                "rendered": "How it works",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.",
+                },
+                "ref": null,
+                "rendered": "Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.",
+                },
+                "ref": null,
+                "rendered": "If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.",
+                },
+                "ref": null,
+                "rendered": "Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "* Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.",
+                },
+                "ref": null,
+                "rendered": "* Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Stay in the know with NexTrip",
+                },
+                "ref": null,
+                "rendered": "Stay in the know with NexTrip",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!",
+                },
+                "ref": null,
+                "rendered": "No need to guess when your next bus or train will depart.* NexTrip gets you what you need, right now!",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "How it works",
+                },
+                "ref": null,
+                "rendered": "How it works",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.",
+                },
+                "ref": null,
+                "rendered": "Every bus and train has an onboard computer that tracks its GPS location. As it travels along a route, NexTrip tracks its location in relation to specific timepoints. It updates automatically every few seconds.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.",
+                },
+                "ref": null,
+                "rendered": "If a bus is expected – based on its current travel speed – to leave a stop within the next 20 minutes, NexTrip displays this icon  along with the number of minutes to departure (i.e., 6 Min). Outside the 20-minute window, NexTrip displays scheduled times (i.e., 2:17). Note: Always arrive at the stop at least 5 minutes before the scheduled time.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.",
+                },
+                "ref": null,
+                "rendered": "Because NexTrip tracks location based on stops along the route, if a bus has to make an unexpected detour off its regular route – for example, to avoid an obstruction or congestion – it will not be displayed in NexTrip. Until the bus returns to its regular route, NexTrip will display only scheduled times.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "* Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.",
+                },
+                "ref": null,
+                "rendered": "* Departure times are estimates. Buses and trains are subject to delays based on traffic and other conditions. Always arrive at your stop 5 minutes before the NexTrip or scheduled time.",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

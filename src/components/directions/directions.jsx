@@ -4,7 +4,7 @@ import ImmutablePropTypes from 'react-immutable-proptypes'
 import { getDirections, setSelectedDirection, getSelectedDirection, isGetDirectionsSuccessful } from 'ducks/get-directions'
 import { getSelectedRoute } from 'ducks/get-routes'
 import { loadStops } from 'ducks/get-stops'
-import { DropDown } from 'components/directions/drop-down'
+import { DropDown } from 'components/dropdown/dropdown'
 
 export class Directions extends PureComponent {
   static propTypes = {
@@ -49,7 +49,7 @@ export class Directions extends PureComponent {
 
   renderContent = () => {
     const { directions, selectedDirection } = this.props
-    return <DropDown default ="Select a Direction" options= {directions} onChange = {this.setSelectedDirection} selected ={selectedDirection} />
+    return <DropDown context="directions" default ="Select a Direction" options= {directions} onChange = {this.setSelectedDirection} selected ={selectedDirection} />
   }
 
   renderError = () => {

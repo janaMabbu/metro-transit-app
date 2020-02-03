@@ -1,0 +1,821 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component - ContactUs should render the Header snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ContactUs />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="contact-us__sub-header"
+        >
+          <strong>
+            Contact us!
+          </strong>
+        </div>,
+        <div
+          className="contact-us__content"
+        >
+          <div
+            className="contact-us__sub-content"
+          >
+            <h2>
+              Phone
+            </h2>
+            <h2>
+              612-373-3333
+            </h2>
+            <p>
+              One number to reach all Metro Transit services
+            </p>
+            <h2>
+              NexTrip
+            </h2>
+            <p>
+              NexTrip provides automated, real-time information 24 hours a day for trips departing in the next 20 minutes and scheduled times thereafter. You can also access it at metrotransit.org/nextrip.
+            </p>
+            <h2>
+              Transit Information Center
+            </h2>
+            <p>
+              Speak with a transit expert about routes, schedules and fares. Open 6:30 a.m. to 9 p.m. weekdays and 8 a.m. to 4:30 p.m. on weekends and holidays. Closed Thanksgiving Day and Christmas Day.
+            </p>
+            <h2>
+              Customer Relations
+            </h2>
+            <p>
+              Customer Relations staff are available to answer questions and take comments Monday through Friday from 8 a.m. to 4:30 p.m.
+            </p>
+            <h2>
+              Lost & Found
+            </h2>
+            <p>
+              Talk to a Customer Relations specialist to report items left on a bus or train. If staff locate the item, they will mail it to you or make arrangements for you to pick it up at Metro Transit (570 Sixth Avenue North, Minneapolis see map).
+            </p>
+            <hr />
+            <h2>
+              Text
+            </h2>
+            <h2>
+              612-444-1161   Text for Transit Information
+            </h2>
+            <p>
+              Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
+            </p>
+            <p>
+              Thank you for helping us test this new service!
+            </p>
+          </div>
+        </div>,
+      ],
+      "className": "contact-us",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <strong>
+            Contact us!
+          </strong>,
+          "className": "contact-us__sub-header",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Contact us!",
+          },
+          "ref": null,
+          "rendered": "Contact us!",
+          "type": "strong",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="contact-us__sub-content"
+          >
+            <h2>
+              Phone
+            </h2>
+            <h2>
+              612-373-3333
+            </h2>
+            <p>
+              One number to reach all Metro Transit services
+            </p>
+            <h2>
+              NexTrip
+            </h2>
+            <p>
+              NexTrip provides automated, real-time information 24 hours a day for trips departing in the next 20 minutes and scheduled times thereafter. You can also access it at metrotransit.org/nextrip.
+            </p>
+            <h2>
+              Transit Information Center
+            </h2>
+            <p>
+              Speak with a transit expert about routes, schedules and fares. Open 6:30 a.m. to 9 p.m. weekdays and 8 a.m. to 4:30 p.m. on weekends and holidays. Closed Thanksgiving Day and Christmas Day.
+            </p>
+            <h2>
+              Customer Relations
+            </h2>
+            <p>
+              Customer Relations staff are available to answer questions and take comments Monday through Friday from 8 a.m. to 4:30 p.m.
+            </p>
+            <h2>
+              Lost & Found
+            </h2>
+            <p>
+              Talk to a Customer Relations specialist to report items left on a bus or train. If staff locate the item, they will mail it to you or make arrangements for you to pick it up at Metro Transit (570 Sixth Avenue North, Minneapolis see map).
+            </p>
+            <hr />
+            <h2>
+              Text
+            </h2>
+            <h2>
+              612-444-1161   Text for Transit Information
+            </h2>
+            <p>
+              Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
+            </p>
+            <p>
+              Thank you for helping us test this new service!
+            </p>
+          </div>,
+          "className": "contact-us__content",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Phone
+              </h2>,
+              <h2>
+                612-373-3333
+              </h2>,
+              <p>
+                One number to reach all Metro Transit services
+              </p>,
+              <h2>
+                NexTrip
+              </h2>,
+              <p>
+                NexTrip provides automated, real-time information 24 hours a day for trips departing in the next 20 minutes and scheduled times thereafter. You can also access it at metrotransit.org/nextrip.
+              </p>,
+              <h2>
+                Transit Information Center
+              </h2>,
+              <p>
+                Speak with a transit expert about routes, schedules and fares. Open 6:30 a.m. to 9 p.m. weekdays and 8 a.m. to 4:30 p.m. on weekends and holidays. Closed Thanksgiving Day and Christmas Day.
+              </p>,
+              <h2>
+                Customer Relations
+              </h2>,
+              <p>
+                Customer Relations staff are available to answer questions and take comments Monday through Friday from 8 a.m. to 4:30 p.m.
+              </p>,
+              <h2>
+                Lost & Found
+              </h2>,
+              <p>
+                Talk to a Customer Relations specialist to report items left on a bus or train. If staff locate the item, they will mail it to you or make arrangements for you to pick it up at Metro Transit (570 Sixth Avenue North, Minneapolis see map).
+              </p>,
+              <hr />,
+              <h2>
+                Text
+              </h2>,
+              <h2>
+                612-444-1161   Text for Transit Information
+              </h2>,
+              <p>
+                Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
+              </p>,
+              <p>
+                Thank you for helping us test this new service!
+              </p>,
+            ],
+            "className": "contact-us__sub-content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Phone",
+              },
+              "ref": null,
+              "rendered": "Phone",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "612-373-3333",
+              },
+              "ref": null,
+              "rendered": "612-373-3333",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "One number to reach all Metro Transit services",
+              },
+              "ref": null,
+              "rendered": "One number to reach all Metro Transit services",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "NexTrip",
+              },
+              "ref": null,
+              "rendered": "NexTrip",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "NexTrip provides automated, real-time information 24 hours a day for trips departing in the next 20 minutes and scheduled times thereafter. You can also access it at metrotransit.org/nextrip.",
+              },
+              "ref": null,
+              "rendered": "NexTrip provides automated, real-time information 24 hours a day for trips departing in the next 20 minutes and scheduled times thereafter. You can also access it at metrotransit.org/nextrip.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Transit Information Center",
+              },
+              "ref": null,
+              "rendered": "Transit Information Center",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Speak with a transit expert about routes, schedules and fares. Open 6:30 a.m. to 9 p.m. weekdays and 8 a.m. to 4:30 p.m. on weekends and holidays. Closed Thanksgiving Day and Christmas Day.",
+              },
+              "ref": null,
+              "rendered": "Speak with a transit expert about routes, schedules and fares. Open 6:30 a.m. to 9 p.m. weekdays and 8 a.m. to 4:30 p.m. on weekends and holidays. Closed Thanksgiving Day and Christmas Day.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Customer Relations",
+              },
+              "ref": null,
+              "rendered": "Customer Relations",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Customer Relations staff are available to answer questions and take comments Monday through Friday from 8 a.m. to 4:30 p.m.",
+              },
+              "ref": null,
+              "rendered": "Customer Relations staff are available to answer questions and take comments Monday through Friday from 8 a.m. to 4:30 p.m.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lost & Found",
+              },
+              "ref": null,
+              "rendered": "Lost & Found",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Talk to a Customer Relations specialist to report items left on a bus or train. If staff locate the item, they will mail it to you or make arrangements for you to pick it up at Metro Transit (570 Sixth Avenue North, Minneapolis see map).",
+              },
+              "ref": null,
+              "rendered": "Talk to a Customer Relations specialist to report items left on a bus or train. If staff locate the item, they will mail it to you or make arrangements for you to pick it up at Metro Transit (570 Sixth Avenue North, Minneapolis see map).",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "hr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Text",
+              },
+              "ref": null,
+              "rendered": "Text",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "612-444-1161   Text for Transit Information",
+              },
+              "ref": null,
+              "rendered": "612-444-1161   Text for Transit Information",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.",
+              },
+              "ref": null,
+              "rendered": "Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Thank you for helping us test this new service!",
+              },
+              "ref": null,
+              "rendered": "Thank you for helping us test this new service!",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="contact-us__sub-header"
+          >
+            <strong>
+              Contact us!
+            </strong>
+          </div>,
+          <div
+            className="contact-us__content"
+          >
+            <div
+              className="contact-us__sub-content"
+            >
+              <h2>
+                Phone
+              </h2>
+              <h2>
+                612-373-3333
+              </h2>
+              <p>
+                One number to reach all Metro Transit services
+              </p>
+              <h2>
+                NexTrip
+              </h2>
+              <p>
+                NexTrip provides automated, real-time information 24 hours a day for trips departing in the next 20 minutes and scheduled times thereafter. You can also access it at metrotransit.org/nextrip.
+              </p>
+              <h2>
+                Transit Information Center
+              </h2>
+              <p>
+                Speak with a transit expert about routes, schedules and fares. Open 6:30 a.m. to 9 p.m. weekdays and 8 a.m. to 4:30 p.m. on weekends and holidays. Closed Thanksgiving Day and Christmas Day.
+              </p>
+              <h2>
+                Customer Relations
+              </h2>
+              <p>
+                Customer Relations staff are available to answer questions and take comments Monday through Friday from 8 a.m. to 4:30 p.m.
+              </p>
+              <h2>
+                Lost & Found
+              </h2>
+              <p>
+                Talk to a Customer Relations specialist to report items left on a bus or train. If staff locate the item, they will mail it to you or make arrangements for you to pick it up at Metro Transit (570 Sixth Avenue North, Minneapolis see map).
+              </p>
+              <hr />
+              <h2>
+                Text
+              </h2>
+              <h2>
+                612-444-1161   Text for Transit Information
+              </h2>
+              <p>
+                Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
+              </p>
+              <p>
+                Thank you for helping us test this new service!
+              </p>
+            </div>
+          </div>,
+        ],
+        "className": "contact-us",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <strong>
+              Contact us!
+            </strong>,
+            "className": "contact-us__sub-header",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Contact us!",
+            },
+            "ref": null,
+            "rendered": "Contact us!",
+            "type": "strong",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="contact-us__sub-content"
+            >
+              <h2>
+                Phone
+              </h2>
+              <h2>
+                612-373-3333
+              </h2>
+              <p>
+                One number to reach all Metro Transit services
+              </p>
+              <h2>
+                NexTrip
+              </h2>
+              <p>
+                NexTrip provides automated, real-time information 24 hours a day for trips departing in the next 20 minutes and scheduled times thereafter. You can also access it at metrotransit.org/nextrip.
+              </p>
+              <h2>
+                Transit Information Center
+              </h2>
+              <p>
+                Speak with a transit expert about routes, schedules and fares. Open 6:30 a.m. to 9 p.m. weekdays and 8 a.m. to 4:30 p.m. on weekends and holidays. Closed Thanksgiving Day and Christmas Day.
+              </p>
+              <h2>
+                Customer Relations
+              </h2>
+              <p>
+                Customer Relations staff are available to answer questions and take comments Monday through Friday from 8 a.m. to 4:30 p.m.
+              </p>
+              <h2>
+                Lost & Found
+              </h2>
+              <p>
+                Talk to a Customer Relations specialist to report items left on a bus or train. If staff locate the item, they will mail it to you or make arrangements for you to pick it up at Metro Transit (570 Sixth Avenue North, Minneapolis see map).
+              </p>
+              <hr />
+              <h2>
+                Text
+              </h2>
+              <h2>
+                612-444-1161   Text for Transit Information
+              </h2>
+              <p>
+                Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
+              </p>
+              <p>
+                Thank you for helping us test this new service!
+              </p>
+            </div>,
+            "className": "contact-us__content",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2>
+                  Phone
+                </h2>,
+                <h2>
+                  612-373-3333
+                </h2>,
+                <p>
+                  One number to reach all Metro Transit services
+                </p>,
+                <h2>
+                  NexTrip
+                </h2>,
+                <p>
+                  NexTrip provides automated, real-time information 24 hours a day for trips departing in the next 20 minutes and scheduled times thereafter. You can also access it at metrotransit.org/nextrip.
+                </p>,
+                <h2>
+                  Transit Information Center
+                </h2>,
+                <p>
+                  Speak with a transit expert about routes, schedules and fares. Open 6:30 a.m. to 9 p.m. weekdays and 8 a.m. to 4:30 p.m. on weekends and holidays. Closed Thanksgiving Day and Christmas Day.
+                </p>,
+                <h2>
+                  Customer Relations
+                </h2>,
+                <p>
+                  Customer Relations staff are available to answer questions and take comments Monday through Friday from 8 a.m. to 4:30 p.m.
+                </p>,
+                <h2>
+                  Lost & Found
+                </h2>,
+                <p>
+                  Talk to a Customer Relations specialist to report items left on a bus or train. If staff locate the item, they will mail it to you or make arrangements for you to pick it up at Metro Transit (570 Sixth Avenue North, Minneapolis see map).
+                </p>,
+                <hr />,
+                <h2>
+                  Text
+                </h2>,
+                <h2>
+                  612-444-1161   Text for Transit Information
+                </h2>,
+                <p>
+                  Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
+                </p>,
+                <p>
+                  Thank you for helping us test this new service!
+                </p>,
+              ],
+              "className": "contact-us__sub-content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Phone",
+                },
+                "ref": null,
+                "rendered": "Phone",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "612-373-3333",
+                },
+                "ref": null,
+                "rendered": "612-373-3333",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "One number to reach all Metro Transit services",
+                },
+                "ref": null,
+                "rendered": "One number to reach all Metro Transit services",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NexTrip",
+                },
+                "ref": null,
+                "rendered": "NexTrip",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NexTrip provides automated, real-time information 24 hours a day for trips departing in the next 20 minutes and scheduled times thereafter. You can also access it at metrotransit.org/nextrip.",
+                },
+                "ref": null,
+                "rendered": "NexTrip provides automated, real-time information 24 hours a day for trips departing in the next 20 minutes and scheduled times thereafter. You can also access it at metrotransit.org/nextrip.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Transit Information Center",
+                },
+                "ref": null,
+                "rendered": "Transit Information Center",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Speak with a transit expert about routes, schedules and fares. Open 6:30 a.m. to 9 p.m. weekdays and 8 a.m. to 4:30 p.m. on weekends and holidays. Closed Thanksgiving Day and Christmas Day.",
+                },
+                "ref": null,
+                "rendered": "Speak with a transit expert about routes, schedules and fares. Open 6:30 a.m. to 9 p.m. weekdays and 8 a.m. to 4:30 p.m. on weekends and holidays. Closed Thanksgiving Day and Christmas Day.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Customer Relations",
+                },
+                "ref": null,
+                "rendered": "Customer Relations",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Customer Relations staff are available to answer questions and take comments Monday through Friday from 8 a.m. to 4:30 p.m.",
+                },
+                "ref": null,
+                "rendered": "Customer Relations staff are available to answer questions and take comments Monday through Friday from 8 a.m. to 4:30 p.m.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lost & Found",
+                },
+                "ref": null,
+                "rendered": "Lost & Found",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Talk to a Customer Relations specialist to report items left on a bus or train. If staff locate the item, they will mail it to you or make arrangements for you to pick it up at Metro Transit (570 Sixth Avenue North, Minneapolis see map).",
+                },
+                "ref": null,
+                "rendered": "Talk to a Customer Relations specialist to report items left on a bus or train. If staff locate the item, they will mail it to you or make arrangements for you to pick it up at Metro Transit (570 Sixth Avenue North, Minneapolis see map).",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "hr",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Text",
+                },
+                "ref": null,
+                "rendered": "Text",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "612-444-1161   Text for Transit Information",
+                },
+                "ref": null,
+                "rendered": "612-444-1161   Text for Transit Information",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.",
+                },
+                "ref": null,
+                "rendered": "Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Thank you for helping us test this new service!",
+                },
+                "ref": null,
+                "rendered": "Thank you for helping us test this new service!",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
