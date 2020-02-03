@@ -39,21 +39,21 @@ I had used Redux for maintaining the application state.
 
 Although maintaining the app data with the local state would be ideal for small applications, I had used react-redux to maintain the state and using redux-thunk as middle-ware to dispatch async actions for one particular reason.
 ## Reason
-The reason is when the user selects the routes and view this stops and navigates to contact us page and stops componnet unmounts and looses its local state. By having the application state on redux the component can retain the user selection and data when the user clicks the browser back and lands on this page. so it does not need to make service calls to get the data as the data is readily available on redux. so it optimizes the application and improves performance.
+The reason is when the user selects the routes and view the stops and navigates to contact us page and the stops componnet unmounts and looses its local state. By having the application state on redux, the component can retain the user selection and data when the user clicks the browser back and lands on this page and the component mounts using the data from redux. so it does not need to make service calls to get the data as the data is readily available on redux. so it optimizes the application and improves performance.
 
 # Code Overview
 
-###/src/components 
-it has all the components it has .jsx file and .less file and __tests__ folder which will have some Enzyme snapshot test cases for that component
+### /src/components 
+it has all the components and each componnet folder has a .jsx file and .less file and __tests__ folder which will have some Enzyme snapshot test cases for that component.
 
-###/src/ducks 
-it has all the business logic that a component needs, each file contains the actions, reducers and readers and async functions that component triggers or needs.
+### /src/ducks 
+this folder has all the business logic that a component needs, each file contains the corresponding actions, reducers and readers and async functions that component triggers or needs.
 
-###/src/__tests __ 
-it has the test cases for the duck files, it's mostly unit test cases for the functions present in corresponding duck file.
+### /src/__tests __ 
+it has the test cases for the duck files, it's mostly unit test cases for the functions present in corresponding duck files.
 
 # CSS Overview
-I had used Less  CSS preprocessor in the project and again this is not needed for an application of this size, but I have declared some variables such as colors, width, and image path and reused them, it would make developers life easy if we want to rebrand the site with different colors and different images or width.
+I had used Less  CSS preprocessor in the project and again this is not needed for an application of this size, but I have declared some variables such as colors, width, and image path and reused them, it would make developers life much easy if we want to rebrand the site with different colors and different images or width.
 
 # Bundle
 npm run build: bundle to build the app. But the app is not yet production-ready because of some reasons below
