@@ -26,14 +26,13 @@ Node 8.15 or greater and Npm 6.4.1 or greater
 6. Include a README.md file -- (completed)
 
 # Application Routing
-I had implemented application routes with react-router library and these are some possible routes that this application supports
+I had implemented application routes with react-router library and these are some possible routes that this application supports and browser back and forward works reasonably.
 
-http://127.0.0.1:1337/#/nexttrip     (default route)
-http://127.0.0.1:1337/#/nexttrip/901  (with  routeID)
-http://127.0.0.1:1337/#/nexttrip/901/1   (with routeId and Direction ID)
-http://127.0.0.1:1337/#/about-us 
-http://127.0.0.1:1337/#/contact-us
-browser back and forward works reasonably.
+1. http://127.0.0.1:1337/#/nexttrip     (default route)
+2. http://127.0.0.1:1337/#/nexttrip/901  (with  routeID)
+3. http://127.0.0.1:1337/#/nexttrip/901/1   (with routeId and Direction ID)
+4. http://127.0.0.1:1337/#/about-us 
+5. http://127.0.0.1:1337/#/contact-us
 
 # Application-state Justification
 I had used Redux for maintaining the application state.
