@@ -1,19 +1,44 @@
 import { shallow } from 'enzyme'
 import React from 'react'
+import Immutable from 'immutable'
 
 import { DropDown } from 'components/dropdown/dropdown'
 
-describe('Component - AboutNextTrip', () => {
-  it('should render the Header snapshot', () => {
-    const wrapper = shallow(<AboutNextTrip />)
+describe('Component - DropDown', () => {
+  let props
+  const dropDownMockData = [
+    {
+      'RouteId': '1',
+      'Description': 'Description'
+    },
+     {
+      'RouteId': '2',
+      'Description': 'Description11'
+    },
+     {
+      'RouteId': '3',
+      'Description': 'Description22'
+    },
+  ]
+  beforeEach(() => {
+    props = {
+      options: Immutable.fromJS(dropDownMockData),
+      context:'routes',
+      default:'default',
+      onChange: jest.fn()
+    }
+  })
+  it('should render the DropDown snapshot', () => {
+    const wrapper = shallow(<DropDown {...props} />)
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('it should contain sub-header, content, and subcontent', () => {
-    const wrapper = shallow(<AboutNextTrip />)
-    expect(wrapper.find('.about-us__sub-header').length).toBe(1)
-    expect(wrapper.find('.about-us__content').length).toBe(1)
-    expect(wrapper.find('.about-us__sub-content').length).toBe(1)
+  it('it should have correct nummber of options', () => {
+    const wrapper = shallow(<DropDown {...props} />)
+    expect(wrapper.find('.metro-app__dropdown-item').length).toBe(4)
+    dropDownMockData.pop()
+    wrapper.setProps({ options: Immutable.fromJS(dropDownMockData) })
+    expect(wrapper.find('.metro-app__dropdown-item').length).toBe(3)
   })
 
 })

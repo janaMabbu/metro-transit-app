@@ -22,7 +22,7 @@ ShallowWrapper {
           className="contact-us__sub-header"
         >
           <strong>
-            Contact us!
+            Contact us:
           </strong>
         </div>,
         <div
@@ -69,8 +69,11 @@ ShallowWrapper {
               Text
             </h2>
             <h2>
-              612-444-1161   Text for Transit Information
+              612-444-1161
             </h2>
+            <p>
+               Text for Transit Information 
+            </p>
             <p>
               Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
             </p>
@@ -90,7 +93,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <strong>
-            Contact us!
+            Contact us:
           </strong>,
           "className": "contact-us__sub-header",
         },
@@ -100,10 +103,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Contact us!",
+            "children": "Contact us:",
           },
           "ref": null,
-          "rendered": "Contact us!",
+          "rendered": "Contact us:",
           "type": "strong",
         },
         "type": "div",
@@ -154,8 +157,11 @@ ShallowWrapper {
               Text
             </h2>
             <h2>
-              612-444-1161   Text for Transit Information
+              612-444-1161
             </h2>
+            <p>
+               Text for Transit Information 
+            </p>
             <p>
               Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
             </p>
@@ -210,8 +216,11 @@ ShallowWrapper {
                 Text
               </h2>,
               <h2>
-                612-444-1161   Text for Transit Information
+                612-444-1161
               </h2>,
+              <p>
+                 Text for Transit Information 
+              </p>,
               <p>
                 Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
               </p>,
@@ -369,11 +378,22 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "612-444-1161   Text for Transit Information",
+                "children": "612-444-1161",
               },
               "ref": null,
-              "rendered": "612-444-1161   Text for Transit Information",
+              "rendered": "612-444-1161",
               "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " Text for Transit Information ",
+              },
+              "ref": null,
+              "rendered": " Text for Transit Information ",
+              "type": "p",
             },
             Object {
               "instance": null,
@@ -416,7 +436,7 @@ ShallowWrapper {
             className="contact-us__sub-header"
           >
             <strong>
-              Contact us!
+              Contact us:
             </strong>
           </div>,
           <div
@@ -463,8 +483,11 @@ ShallowWrapper {
                 Text
               </h2>
               <h2>
-                612-444-1161   Text for Transit Information
+                612-444-1161
               </h2>
+              <p>
+                 Text for Transit Information 
+              </p>
               <p>
                 Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
               </p>
@@ -484,7 +507,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <strong>
-              Contact us!
+              Contact us:
             </strong>,
             "className": "contact-us__sub-header",
           },
@@ -494,10 +517,10 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Contact us!",
+              "children": "Contact us:",
             },
             "ref": null,
-            "rendered": "Contact us!",
+            "rendered": "Contact us:",
             "type": "strong",
           },
           "type": "div",
@@ -548,8 +571,11 @@ ShallowWrapper {
                 Text
               </h2>
               <h2>
-                612-444-1161   Text for Transit Information
+                612-444-1161
               </h2>
+              <p>
+                 Text for Transit Information 
+              </p>
               <p>
                 Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
               </p>
@@ -604,8 +630,11 @@ ShallowWrapper {
                   Text
                 </h2>,
                 <h2>
-                  612-444-1161   Text for Transit Information
+                  612-444-1161
                 </h2>,
+                <p>
+                   Text for Transit Information 
+                </p>,
                 <p>
                   Help us test our new Text for Transit Info program. Monday through Friday between the hours of 8 a.m. and 4:30 p.m., text your general transit questions or trip planning requests to 612-444-1161, and a transit expert will get back to you within minutes with the answers.
                 </p>,
@@ -763,11 +792,22 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "612-444-1161   Text for Transit Information",
+                  "children": "612-444-1161",
                 },
                 "ref": null,
-                "rendered": "612-444-1161   Text for Transit Information",
+                "rendered": "612-444-1161",
                 "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " Text for Transit Information ",
+                },
+                "ref": null,
+                "rendered": " Text for Transit Information ",
+                "type": "p",
               },
               Object {
                 "instance": null,

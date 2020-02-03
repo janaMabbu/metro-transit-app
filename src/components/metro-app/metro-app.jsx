@@ -1,6 +1,7 @@
 import React, { PureComponent, Fragment } from 'react'
 import { connect } from 'react-redux'
 import ImmutablePropTypes from 'react-immutable-proptypes'
+import PropTypes from 'prop-types'
 import { getMetroRoutes, getRoutes, setSelectedRoute, getSelectedRoute, isGetRoutesSuccessful } from 'ducks/get-routes'
 import { loadDirections, getSelectedDirection } from 'ducks/get-directions'
 import { DropDown } from 'components/dropdown/dropdown'

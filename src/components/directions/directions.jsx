@@ -1,5 +1,6 @@
 import React, { PureComponent, Fragment } from 'react'
 import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
 import ImmutablePropTypes from 'react-immutable-proptypes'
 import { getDirections, setSelectedDirection, getSelectedDirection, isGetDirectionsSuccessful } from 'ducks/get-directions'
 import { getSelectedRoute } from 'ducks/get-routes'
@@ -15,7 +16,8 @@ export class Directions extends PureComponent {
     selectedDirection:PropTypes.string,
     setRoutePath: PropTypes.func.isRequired,
     setSelectedDirection: PropTypes.func.isRequired,
-    isGetDirectionsSuccessful: PropTypes.bool
+    isGetDirectionsSuccessful: PropTypes.bool,
+    loadStops: PropTypes.func.isRequired
   }
 
   componentDidMount () {
