@@ -5,7 +5,6 @@
   "scripts": {
     "build:bundle": "NODE_ENV=production webpack",
     "start": "NODE_ENV=development webpack-dev-server",
-    "start:nodemon": "nodemon --watch dev --exec 'npm run startquiet'",
     "lint:css": "stylelint **/*.scss",
     "lint:js": "eslint src --ext js --ext jsx",
     "test": "npm run lint:js && npm run lint:css && npm run test:js",
