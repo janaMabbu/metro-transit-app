@@ -12,7 +12,7 @@ const middleware = [ thunk]
 let enhancers
 
 if (__DEVELOPMENT__) {
-  // console actions and previous and current state for easy debugging
+  // console actions and previous and current state for easy development and debugging
   middleware.push(createLogger({
     collapsed: true,
     stateTransformer (state) {

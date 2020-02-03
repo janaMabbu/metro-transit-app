@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { get } from 'lodash'
 
 export class ErrorBoundary extends Component {
   static propTypes = {
@@ -14,7 +13,7 @@ export class ErrorBoundary extends Component {
         return (
           <div style={{ border: '2px solid tomato', padding: '15px' }}>
             <h2>Oops, something went wrong with Metro App </h2>
-            <h3>{ get(this.props, 'children.type.displayName', 'It') } has crashed.</h3>
+            <h3>{ this.props.children && this.props.children.type && this.props.children.type.displayName }, It has crashed.</h3>
           </div>
         )
     } else {
