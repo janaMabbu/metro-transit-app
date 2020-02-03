@@ -45,22 +45,26 @@ export class Stops extends PureComponent {
           <div>RouteId: { selectedRoute }</div>
           <div>DirectionId: { selectedDirection }</div>
         </div>
-        { stops.slice(0, this.state.count).map(stop => {
+        <ul>
+          { stops.slice(0, this.state.count).map(stop => {
           return (
-            <div role="list" className="stops-container__list" key={ stop.get('PlaceCode') }>
+            <li className="stops-container__list" key={ stop.get('PlaceCode') }>
          <div className="stops-container__stop-description">
           <span><strong>{ stop.get('PlaceCode') } </strong></span>
           <span>{ stop.get('Description' )}</span>
          </div>
-        </div>
+        </li>
           )
         })}
         { stops.size > 4 && 
+          <li>
           <button className="stops-container__button" onClick={this.manageCount}>
           <span className={this.state.stopsContainerExpanded ? 'stops-container__expand': 'stops-container__closed'}></span>
             Show {this.state.stopsContainerExpanded ? 'less' : 'more'} Stops
             </button>
+            </li>
           }
+        </ul>
       </div>
     )
   }

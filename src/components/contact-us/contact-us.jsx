@@ -2,6 +2,11 @@ import React, { PureComponent, Fragment } from 'react'
 import './contact-us.less'
 
 export default class ContactUs extends PureComponent {
+
+  componentDidMount () {
+    window.scrollTo(0, 0)
+  }
+
   render () {
     return (
       <div className="contact-us">

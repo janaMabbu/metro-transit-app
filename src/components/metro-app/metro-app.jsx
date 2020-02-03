@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import ImmutablePropTypes from 'react-immutable-proptypes'
 import PropTypes from 'prop-types'
 import { getMetroRoutes, getRoutes, setSelectedRoute, getSelectedRoute, isGetRoutesSuccessful } from 'ducks/get-routes'
-import { loadDirections, getSelectedDirection } from 'ducks/get-directions'
+import { loadDirections, getSelectedDirection, setSelectedDirection } from 'ducks/get-directions'
 import { DropDown } from 'components/dropdown/dropdown'
 import Directions from 'components/directions'
 import Stops from 'components/stops'
@@ -19,6 +19,7 @@ export class MetroApp extends PureComponent {
     getRoutes: PropTypes.func.isRequired,
     setSelectedRoute: PropTypes.func.isRequired,
     loadDirections: PropTypes.func.isRequired,
+    setSelectedDirection: PropTypes.func.isRequired,
   }
   state = {
     routeId: null,
@@ -28,6 +29,7 @@ export class MetroApp extends PureComponent {
   componentDidMount () {
     const { getRoutes, router, setSelectedRoute, loadDirections } = this.props
     getRoutes()
+    window.scrollTo(0, 0)
     //grab the selected route from url path to retain the state
     if(router.params && router.params.routeId) {
       setSelectedRoute(router.params.routeId)
@@ -39,9 +41,15 @@ export class MetroApp extends PureComponent {
 
 
   setSelectedRoute = (event) => {
-    const {setSelectedRoute, loadDirections, router} = this.props
+    const {setSelectedRoute, loadDirections, router, setSelectedDirection} = this.props
+    
+    // this hides the stops and resets the direction dropdown to set to default
+    setSelectedDirection('')
+    // this updates the selected route
     setSelectedRoute(event.target.value)
+    // this loads the directions for the slected route
     loadDirections(event.target.value)
+    // pushing to the next page, but it renders the same component
     router.push(`/nexttrip/${event.target.value}`)
   }
 
@@ -112,6 +120,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = {
   getRoutes,
   setSelectedRoute,
-  loadDirections
+  loadDirections,
+  setSelectedDirection
 }
 export default connect(mapStateToProps, mapDispatchToProps)(MetroApp)

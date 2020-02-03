@@ -2,9 +2,14 @@ import React, { PureComponent, Fragment } from 'react'
 import './about-next-trip.less'
 
 export default class AboutNextTrip extends PureComponent {
+
+  componentDidMount () {
+    window.scrollTo(0, 0)
+  }
+
   render () {
     return (
-      <div className="about-us">
+      <header className="about-us">
         <div className="about-us__sub-header">
           <strong>About Nextrip!</strong>
         </div>
@@ -54,7 +59,7 @@ export default class AboutNextTrip extends PureComponent {
             </p>
           </div>
         </div>
-      </div>
+      </header>
     )
   }
 
