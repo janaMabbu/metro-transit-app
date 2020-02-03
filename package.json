@@ -87,7 +87,7 @@
     "file-loader": "3.0.1",
     "webpack": "4.28.3",
     "webpack-cli": "3.2.0",
-    "webpack-dev-server": "3.1.4",
+    "webpack-dev-server": "3.1.11",
     "whatwg-fetch": "2.0.2"
   }
 }
