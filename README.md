@@ -83,6 +83,15 @@ https://www.bestbuy.com/wireless/activation-guide
 
 The above pages are not reponsive by default, we use useragent to decide what type of view the customer needs, you can switch to repsonsive view( mobile and ipad view) by clicking on the "Mobile Site" on the bottom of page
 
+### React with GraphQL sample project 
+Used Apolo client and it was built on github GraphQl services
+code: https://github.com/janaMabbu/react-graphql-app
+this sample project is hosted on AWS.
+http://jana-app.s3-website.us-east-2.amazonaws.com/#/
+note: I just deeveloped it for my learning purposes the code is not scaled properly.
+
+
+
 
 
 
