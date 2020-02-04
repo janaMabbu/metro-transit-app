@@ -69,3 +69,22 @@ npm run build: bundle to build the app. But the app is not yet production-ready 
 1. To optimize the app, I made some of the dependencies/libraries are marked as external, and these assets are served by webpack dev server when we run the app locally, these assets have to be copied from node modules to another folder and should be included in the build folder and a web server which hosts the application should serve these files or we can complete on rely on CDN's for loading these libraries.
 
 2. bundle/code splitting and fingerprinting of the files is not done. has to setup webpack configuration for that.
+
+# My work samples
+
+### an npm package I had published last year
+https://www.npmjs.com/package/omit-deep-by-values
+
+### some webpages I had built/worked for bestbuy client
+
+https://www.bestbuy.com/wireless/transaction-types/render/carriers?numberOfPayments=1&purchaseType=FULL_SRP&skuId=6223303
+https://www.bestbuy.com/wireless/activated/upgradechecker
+https://www.bestbuy.com/wireless/activation-guide
+
+The above pages are not reponsive by default, we use useragent to decide what type of view the customer needs, you can switch to repsonsive view( mobile and ipad view) by clicking on the "Mobile Site" on the bottom of page
+
+
+
+
+
+
