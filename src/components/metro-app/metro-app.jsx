@@ -33,8 +33,8 @@ export class MetroApp extends PureComponent {
     window.scrollTo(0, 0)
     //grab the selected route from url path to retain the state
     if(router.params && router.params.routeId) {
-      setSelectedRoute(router.params.routeId)
       loadDirections(router.params.routeId)
+      setSelectedRoute(router.params.routeId)
       this.setState({ routeId:router.params.routeId, directionId:router.params.directionId})
     }
   
@@ -43,7 +43,7 @@ export class MetroApp extends PureComponent {
 
   setSelectedRoute = (event) => {
     const {setSelectedRoute, loadDirections, router, setSelectedDirection} = this.props
-    // not trigger anything if user selects the default option
+    // not trigger anything if user selects the default option by mistake
     if(event.target.value != 'Select a Route') {
       // this hides the stops and resets the direction dropdown to set to default
       setSelectedDirection('')

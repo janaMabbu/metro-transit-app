@@ -5,7 +5,7 @@
   "scripts": {
     "build:bundle": "NODE_ENV=production webpack",
     "start": "NODE_ENV=development webpack-dev-server",
-    "lint:css": "stylelint **/*.scss",
+    "lint:css": "stylelint **/*.less",
     "lint:js": "eslint src --ext js --ext jsx",
     "test": "npm run lint:js && npm run lint:css && npm run test:js",
     "test:js": "jest",
@@ -49,6 +49,7 @@
     "babel-cli": "6.26.0",
     "babel-core": "6.23.1",
     "babel-loader": "7.0.0",
+    "babel-eslint": "10.0.1",
     "babel-plugin-transform-amd-to-commonjs": "0.2.0",
     "babel-plugin-transform-es2015-destructuring": "6.23.0",
     "babel-plugin-transform-es2015-parameters": "6.23.0",

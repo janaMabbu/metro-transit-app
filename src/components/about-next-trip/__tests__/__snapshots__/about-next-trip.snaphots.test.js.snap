@@ -371,7 +371,7 @@ ShallowWrapper {
         "type": "div",
       },
     ],
-    "type": "div",
+    "type": "header",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -733,7 +733,7 @@ ShallowWrapper {
           "type": "div",
         },
       ],
-      "type": "div",
+      "type": "header",
     },
   ],
   Symbol(enzyme.__options__): Object {

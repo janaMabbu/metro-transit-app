@@ -75,7 +75,7 @@ ShallowWrapper {
         "type": "p",
       },
     ],
-    "type": "div",
+    "type": "footer",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -141,7 +141,7 @@ ShallowWrapper {
           "type": "p",
         },
       ],
-      "type": "div",
+      "type": "footer",
     },
   ],
   Symbol(enzyme.__options__): Object {

@@ -10,8 +10,7 @@
         "warn"
       ]
     }],
-    "indentation": "tab",
     "number-leading-zero": null,
-    "unit-whitelist": ["px", "em", "%"]
+    "unit-whitelist": ["px", "em", "rem", "%"]
   }
 }
