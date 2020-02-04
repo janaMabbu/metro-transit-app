@@ -35,9 +35,12 @@ export class Directions extends PureComponent {
 
   setSelectedDirection = (event) => {
     const { setSelectedDirection, loadStops, selectedRoute, setRoutePath } = this.props
-    setSelectedDirection(event.target.value)
-    loadStops(selectedRoute, event.target.value)
-    setRoutePath(`/nexttrip/${selectedRoute}/${event.target.value}`)
+    // not trigger anything if user selects the default option by mistake
+      if(event.target.value != 'Select a Direction') {
+        setSelectedDirection(event.target.value)
+        loadStops(selectedRoute, event.target.value)
+        setRoutePath(`/nexttrip/${selectedRoute}/${event.target.value}`)
+    }
   }
 
 

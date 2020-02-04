@@ -1,5 +1,6 @@
 import Immutable from 'immutable'
 import { callEndpoint } from 'ducks/http'
+import { getSelectedRoute } from 'ducks/get-routes'
 
 // REDUCER
 // (currentState is this duck's section of the global state)
@@ -36,6 +37,12 @@ export const isGetDirectionsSuccessful = state => state.getIn(['metroDirections'
 // ASYNC FUNCTIONS
 export const loadDirections = (selectedRoute) => async (dispatch, getState) => {
   const state = getState()
+  
+  // optimization
+  // comparing if directiins exists for the route already
+  if(selectedRoute === getSelectedRoute(state)){
+    return
+  }
 
   try {
     const response = await callEndpoint(`directions\/${selectedRoute}`)
@@ -51,7 +58,7 @@ export const loadDirections = (selectedRoute) => async (dispatch, getState) => {
 }
 
 // HANDLERS
-export const getDirectionsSuccessHandler = (response) => async (dispatch) => {
+export const getDirectionsSuccessHandler = (response) => (dispatch) => {
   dispatch(setMetroDirections(response))
   dispatch(setGetDirectionsIsSuccessful(true))
 }

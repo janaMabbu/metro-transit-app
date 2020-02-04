@@ -4,6 +4,7 @@ export const callEndpoint = async (query, options ={}) => {
     const response = await fetch(queryUrl, options)
     const json = await response.json()
     if(response.status == 200 && json) {
+      // return resonse if http status is 200 or else throw error.
       return json
     } else {
       const error = new Error(`${response.status} ${response.statusText}`)

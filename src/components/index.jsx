@@ -11,11 +11,6 @@ const store = configureStore()
 
 const __DEVELOPMENT__ = process.env.NODE_ENV === 'development'
 
-if (__DEVELOPMENT__) {
-  // easy debugging
-  window.getState = () => store.getState().toJS()
-}
-
 ReactDOM.render(
   <Provider store={ store }>
   <ErrorBoundary>

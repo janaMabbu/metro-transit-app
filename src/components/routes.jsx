@@ -6,6 +6,7 @@ import ContactUs from 'components/contact-us/contact-us'
 import { Header } from 'components/header/header'
 import { Footer } from 'components/footer/footer'
 
+
 export default () => {
   return (
     <Route path="/" component={ App }>
@@ -20,7 +21,7 @@ export default () => {
   )
 }
 
-
+// conatiner componnet taht sets the Header and Footer and Layout.
 export class App extends PureComponent {
     render() {
     return (

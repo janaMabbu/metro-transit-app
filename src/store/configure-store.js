@@ -7,6 +7,7 @@ import rootReducer from './root-reducer'
 
 const __DEVELOPMENT__ = process.env.NODE_ENV === 'development'
 
+// using middle ware
 const middleware = [ thunk]
 
 let enhancers

@@ -56,7 +56,7 @@ export const getRoutes = () => async (dispatch, getState) => {
 }
 
 // HANDLERS
-export const getRoutesSuccessHandler = (response) => async (dispatch) => {
+export const getRoutesSuccessHandler = (response) => (dispatch) => {
   dispatch(setMetroRoutes(response))
   dispatch(setGetRoutesIsSuccessful(true))
 }

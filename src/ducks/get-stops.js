@@ -46,7 +46,7 @@ export const loadStops = (selectedRoute, selectedDirection) => async (dispatch, 
 }
 
 // HANDLERS
-export const getStopsSuccessHandler = (response) => async (dispatch) => {
+export const getStopsSuccessHandler = (response) => (dispatch) => {
   dispatch(setMetroStops(response))
   dispatch(setGetStopsIsSuccessful(true))
 }

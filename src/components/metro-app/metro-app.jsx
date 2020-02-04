@@ -29,6 +29,7 @@ export class MetroApp extends PureComponent {
   componentDidMount () {
     const { getRoutes, router, setSelectedRoute, loadDirections } = this.props
     getRoutes()
+    // scrolling to top on browser navigation
     window.scrollTo(0, 0)
     //grab the selected route from url path to retain the state
     if(router.params && router.params.routeId) {
@@ -42,18 +43,22 @@ export class MetroApp extends PureComponent {
 
   setSelectedRoute = (event) => {
     const {setSelectedRoute, loadDirections, router, setSelectedDirection} = this.props
-    
-    // this hides the stops and resets the direction dropdown to set to default
-    setSelectedDirection('')
-    // this updates the selected route
-    setSelectedRoute(event.target.value)
-    // this loads the directions for the slected route
-    loadDirections(event.target.value)
-    // pushing to the next page, but it renders the same component
-    router.push(`/nexttrip/${event.target.value}`)
+    // not trigger anything if user selects the default option
+    if(event.target.value != 'Select a Route') {
+      // this hides the stops and resets the direction dropdown to set to default
+      setSelectedDirection('')
+      // this loads the directions for the slected route
+      loadDirections(event.target.value)
+
+      // this updates the selected route
+      setSelectedRoute(event.target.value)
+      // pushing to the next page, but it renders the same component
+      router.push(`/nexttrip/${event.target.value}`)
+    }
   }
 
   setRoutePath = (path) => {
+    // this navigated the user to next page
     this.props.router.push(path)
   }
 

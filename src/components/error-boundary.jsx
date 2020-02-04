@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
+// this is an fallback ccomponnets if any componnet in the app throws an exception, the fall back  UI will be displayed.
 export class ErrorBoundary extends Component {
   static propTypes = {
     isDevelopment: PropTypes.bool.isRequired

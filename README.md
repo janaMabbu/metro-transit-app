@@ -34,14 +34,22 @@ I had implemented application routes with react-router library and these are som
 4. http://127.0.0.1:1337/#/about-us 
 5. http://127.0.0.1:1337/#/contact-us
 
-# Application-state Justification
+
+
+# Application-state
 I had used Redux for maintaining the application state.
 
-Although maintaining the app data with the local state would be ideal for small applications, I had used react-redux to maintain the state and using redux-thunk as middle-ware to dispatch async actions for one particular reason.
+Although maintaining the app data with the local state would be ideal for small applications, I had used react-redux to maintain the state and using redux-thunk as middle-ware to dispatch async actions for the below particular reason.
 ## Reason
-The reason is when the user selects the routes and view the stops and navigates to contact us page and the stops componnet unmounts and looses its local state. By having the application state on redux, the component can retain the user selection and data when the user clicks the browser back and lands on this page and the component mounts using the data from redux. so it does not need to make service calls to get the data as the data is readily available on redux. so it optimizes the application and improves performance.
+The reason is when the user selects the routes and view the stops and navigates to contact us page and all the componnets unmounts and looses its local state. By having the application state on redux, the component can retain the user selection and data when the user clicks the browser back and lands on this page and the component mounts using the data from redux. so it does not need to make service calls to get the data as it is readily available on redux. so it optimizes the application and improves performance.
 
-# Code Overview
+# using immutable objects
+I had used immutable objects in the react components for the below reasons.
+
+1. Immutable. js allows us to detect changes in JavaScript objects/arrays without resorting to the inefficiencies of deep equality checks, which in turn allows React to avoid expensive re-render operations when they are not required. This means Immutable. js performance tends to be good in most scenarios.
+2. There is less possiblity of any defects when compared to JS objects as its difficult to track down what made the change to our object.
+
+# Code Overview for the reviewer:
 
 ### /src/components 
 it has all the components and each componnet folder has a .jsx file and .less file and __tests__ folder which will have some Enzyme snapshot test cases for that component.
