@@ -25,6 +25,7 @@ describe('Component - MetroApp', () => {
     }
   ]
   beforeEach(() => {
+    window.scrollTo = jest.fn()
     props = {
       metroRoutes: Immutable.fromJS(routes),
       selectedRoute:'string',
@@ -42,6 +43,7 @@ describe('Component - MetroApp', () => {
     }
   })
   it('should render the MetroApp snapshot', () => {
+    
     const wrapper = shallow(<MetroApp {...props} />)
     expect(wrapper).toMatchSnapshot()
   })

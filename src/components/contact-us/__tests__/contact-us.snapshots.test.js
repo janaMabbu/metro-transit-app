@@ -4,6 +4,11 @@ import React from 'react'
 import ContactUs from 'components/contact-us/contact-us'
 
 describe('Component - ContactUs', () => {
+
+  beforeEach(() => {
+    window.scrollTo = jest.fn()
+  })
+
   it('should render the Header snapshot', () => {
     const wrapper = shallow(<ContactUs />)
     expect(wrapper).toMatchSnapshot()

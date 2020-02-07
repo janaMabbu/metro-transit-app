@@ -4,6 +4,10 @@ import React from 'react'
 import AboutNextTrip from 'components/about-next-trip/about-next-trip'
 
 describe('Component - AboutNextTrip', () => {
+   beforeEach(() => {
+    window.scrollTo = jest.fn()
+  })
+
   it('should render the Header snapshot', () => {
     const wrapper = shallow(<AboutNextTrip />)
     expect(wrapper).toMatchSnapshot()
